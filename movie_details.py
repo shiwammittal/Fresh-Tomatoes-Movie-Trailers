@@ -1,4 +1,5 @@
 import webbrowser
+#import webbrowser class to be able to open youtube urls
 class Movie():
     #Initializing Movie class variables
     def __init__(self, movie_title, movie_storyline, movie_poster_url, movie_trailer_url):
