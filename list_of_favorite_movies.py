@@ -1,5 +1,5 @@
 import movie_details
-
+import fresh_tomatoes
 iron_man = movie_details.Movie("Iron Man 1", "A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism", "https://upload.wikimedia.org/wikipedia/en/7/70/Ironmanposter.JPG", "https://www.youtube.com/watch?v=XWWd6p2JHKo")
 #print(iron_man.storyline)
 
@@ -14,4 +14,10 @@ avengers_2 = movie_details.Movie("Avengers: Age Of Ultron","When Tony Stark (Rob
 captain_america_1 = movie_details.Movie("Captain America: The First Avenger","Set predominantly during World War II, Captain America: The First Avenger tells the story of Steve Rogers, a sickly man from Brooklyn who is transformed into super-soldier Captain America and must stop the Red Skull, who intends to use an artifact called the Tesseract as an energy-source for world domination.","https://smurfdok.files.wordpress.com/2011/07/captain-america-movie-2011-photo-1-l.jpg","https://www.youtube.com/watch?v=JerVrbLldXw")
 captain_america_2 = movie_details.Movie("Captain America: The Winter Soldier","After the cataclysmic events in New York with his fellow Avengers, Steve Rogers, aka Captain America (Chris Evans), lives in the nation's capital as he tries to adjust to modern times. An attack on a S.H.I.E.L.D. colleague throws Rogers into a web of intrigue that places the whole world at risk. Joining forces with the Black Widow (Scarlett Johansson) and a new ally, the Falcon, Rogers struggles to expose an ever-widening conspiracy, but he and his team soon come up against an unexpected enemy.","http://cdn3-www.comingsoon.net/assets/uploads/1970/01/file_589355_captain-america-2-winter-soldier-character-poster.jpg","https://www.youtube.com/watch?v=7SlILk2WMTI")
 captain_america_3 = movie_details.Movie("Captain America: Civil War","Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage. The new status quo deeply divides members of the team. Captain America (Chris Evans) believes superheroes should remain free to defend humanity without government interference. Iron Man (Robert Downey Jr.) sharply disagrees and supports oversight. As the debate escalates into an all-out feud, Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner) must pick a side.","http://www.desktopimages.org/pictures/2015/1126/1/captain-america-3-civil-war-marvel-superhero-action-fighting-1cacw-warrior-sci-fi-avengers-poster-background-354820.jpg","https://www.youtube.com/watch?v=YqcfOKaIwqY")
-captain_america_3.run_youtube_trailer()
+#captain_america_3.run_youtube_trailer()
+
+# create a list of all the movie objects defined above
+movie_list = [iron_man,iron_man_2,iron_man_3, avengers_1, avengers_2, captain_america_1, captain_america_3, captain_america_3]
+
+# calling fresh_tomatoes method to create a HTML webpage with these movies
+fresh_tomatoes.open_movies_page(movie_list)
