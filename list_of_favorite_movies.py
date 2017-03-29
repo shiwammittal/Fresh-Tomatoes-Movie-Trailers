@@ -61,6 +61,7 @@ avengers_1 = movie_details.Movie(
     "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers"
     "2012Poster.jpg",
     "https://www.youtube.com/watch?v=eOrNdBpGMv8")
+
 avengers_2 = movie_details.Movie(
     "Avengers: Age Of Ultron",
     "When Tony Stark (Robert Downey Jr.) jump-starts a dormant "
@@ -74,17 +75,18 @@ avengers_2 = movie_details.Movie(
     "http://images6.fanpop.com/image/photos/37300000/Avengers-2-"
     "Age-of-Ultron-the-avengers-37328228-380-500.jpg",
     "https://www.youtube.com/watch?v=tmeOjFno6Do")
+
 captain_america_1 = movie_details.Movie(
     "Captain America: The First Avenger",
     "Set predominantly during World War II, Captain America: The "
     "First Avenger tells the story of Steve Rogers, a sickly man "
     "from Brooklyn who is transformed into super-soldier Captain "
     "America and must stop the Red Skull, who intends to use an "
-    "artifact called the Tesseract as an energy-source for world "
-    "domination.",
+    "artifact called the Tesseract as an energy-source for world domination.",
     "https://smurfdok.files.wordpress.com/2011/07/captain-america-"
     "movie-2011-photo-1-l.jpg",
     "https://www.youtube.com/watch?v=JerVrbLldXw")
+
 captain_america_2 = movie_details.Movie(
     "Captain America: The Winter Soldier",
     "After the cataclysmic events in New York with his fellow "
@@ -95,10 +97,10 @@ captain_america_2 = movie_details.Movie(
     "Joining forces with the Black Widow (Scarlett Johansson) and "
     "a new ally, the Falcon, Rogers struggles to expose an ever-"
     "widening conspiracy, but he and his team soon come up against "
-    "an unexpected enemy.",
-    "http://cdn3-www.comingsoon.net/assets/uploads/1970/01/file_"
+    "an unexpected enemy.", "http://cdn3-www.comingsoon.net/assets/uploads/1970/01/file_"
     "589355_captain-america-2-winter-soldier-character-poster.jpg",
     "https://www.youtube.com/watch?v=7SlILk2WMTI")
+
 captain_america_3 = movie_details.Movie(
     "Captain America: Civil War",
     "Political pressure mounts to install a system of accountability "
@@ -123,7 +125,7 @@ movie_list = [
     avengers_1,
     avengers_2,
     captain_america_1,
-    captain_america_3,
+    captain_america_2,
     captain_america_3]
 
 # calling fresh_tomatoes method to create a HTML webpage with these movies
