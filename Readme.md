@@ -75,8 +75,8 @@
     captain_america_1,
     captain_america_2,
     captain_america_3]
-
-fresh_tomatoes.open_movies_page(movie_list)
+    
+    fresh_tomatoes.open_movies_page(movie_list)
 </code></pre>
 </li>
 </li>
