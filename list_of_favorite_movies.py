@@ -97,7 +97,8 @@ captain_america_2 = movie_details.Movie(
     "Joining forces with the Black Widow (Scarlett Johansson) and "
     "a new ally, the Falcon, Rogers struggles to expose an ever-"
     "widening conspiracy, but he and his team soon come up against "
-    "an unexpected enemy.", "http://cdn3-www.comingsoon.net/assets/uploads/1970/01/file_"
+    "an unexpected enemy.", "http://cdn3-www.comingsoon.net/assets/"
+    "uploads/1970/01/file_"
     "589355_captain-america-2-winter-soldier-character-poster.jpg",
     "https://www.youtube.com/watch?v=7SlILk2WMTI")
 
