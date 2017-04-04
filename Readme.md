@@ -46,7 +46,6 @@
         self.storyline = movie_storyline
         self.poster_image_url = movie_poster_url
         self.trailer_youtube_url = movie_trailer_url
-
 </code></pre>
    <li><strong>list_of_favorite_movies.py</strong> Declare another class which imports the properties of the movie_details class</li>
     <pre><code>    import movie_details
@@ -75,11 +74,7 @@
     captain_america_1,
     captain_america_2,
     captain_america_3]
-    
+
     fresh_tomatoes.open_movies_page(movie_list)
 </code></pre>
-</li>
-</li>
 </ul>
-
-</body>
